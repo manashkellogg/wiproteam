@@ -12,7 +12,7 @@
   "packages": {
     "R6": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -29,15 +29,14 @@
         "Packaged": "2021-08-06 20:18:46 UTC; winston",
         "Author": "Winston Chang [aut, cre]",
         "Maintainer": "Winston Chang <winston@stdout.org>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-08-19 14:00:05 UTC",
-        "Encoding": "UTF-8",
-        "Built": "R 4.2.0; ; 2022-05-07 00:07:05 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 11:56:14 UTC; unix"
       }
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -63,7 +62,7 @@
     },
     "askpass": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "askpass",
         "Type": "Package",
@@ -90,7 +89,7 @@
     },
     "base64enc": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -104,15 +103,14 @@
         "URL": "http://www.rforge.net/base64enc",
         "NeedsCompilation": "yes",
         "Packaged": "2015-02-04 20:31:00 UTC; svnuser",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2015-07-28 08:03:37",
-        "Encoding": "UTF-8",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-05-07 00:06:11 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:55:37 UTC; unix"
       }
     },
     "bslib": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -136,14 +134,14 @@
         "Packaged": "2023-08-11 15:31:21 UTC; cpsievert",
         "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Joe Cheng [aut],\n  Garrick Aden-Buie [aut] (<https://orcid.org/0000-0002-7111-0077>),\n  Posit Software, PBC [cph, fnd],\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Javi Aguilar [ctb, cph] (Bootstrap colorpicker library),\n  Thomas Park [ctb, cph] (Bootswatch library),\n  PayPal [ctb, cph] (Bootstrap accessibility plugin)",
         "Maintainer": "Carson Sievert <carson@posit.co>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-08-11 16:53:52 UTC",
-        "Built": "R 4.2.0; ; 2023-08-14 12:18:12 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 12:00:40 UTC; unix"
       }
     },
     "cachem": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "cachem",
         "Version": "1.0.8",
@@ -163,18 +161,18 @@
         "Packaged": "2023-05-01 15:38:38 UTC; winston",
         "Author": "Winston Chang [aut, cre],\n  RStudio [cph, fnd]",
         "Maintainer": "Winston Chang <winston@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-05-01 16:40:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-05-02 13:49:55 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 12:00:46 UTC; unix"
       }
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
-        "Version": "3.6.1",
+        "Version": "3.4.0",
         "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"Müller\", role = \"ctb\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also\n    contains a number of lower level 'CLI' elements: rules, boxes, trees,\n    and 'Unicode' symbols with 'ASCII' alternatives. It support ANSI\n    colors and text styles as well.",
         "License": "MIT + file LICENSE",
@@ -182,23 +180,23 @@
         "BugReports": "https://github.com/r-lib/cli/issues",
         "Depends": "R (>= 3.4)",
         "Imports": "utils",
-        "Suggests": "callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,\nhtmltools, htmlwidgets, knitr, methods, mockery, processx, ps\n(>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,\nrstudioapi, testthat, tibble, whoami, withr",
-        "Config/Needs/website": "r-lib/asciicast, bench, brio, cpp11, decor, desc,\nfansi, prettyunits, sessioninfo, tidyverse/tidytemplate,\nusethis, vctrs",
+        "Suggests": "callr, covr, digest, glue (>= 1.6.0), grDevices, htmltools,\nhtmlwidgets, knitr, methods, mockery, processx, ps (>=\n1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,\nrstudioapi, testthat, tibble, whoami, withr",
+        "Config/Needs/website": "r-lib/asciicast, bench, brio, cpp11, decor, desc,\nfansi, sessioninfo, tidyverse/tidytemplate, usethis, vctrs",
         "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.2.1.9000",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-03-22 13:59:32 UTC; gaborcsardi",
+        "Packaged": "2022-09-07 19:09:39 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  RStudio [cph, fnd]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-03-23 12:52:05 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-03-24 15:27:14 UTC; unix"
+        "Date/Publication": "2022-09-08 07:42:56 UTC",
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-09-09 16:10:56 UTC; unix"
       }
     },
     "commonmark": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -217,14 +215,14 @@
         "Packaged": "2023-03-17 18:02:44 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  John MacFarlane [cph] (Author of cmark)",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-03-17 18:40:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-03-20 13:02:46 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:58:24 UTC; unix"
       }
     },
     "crayon": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
@@ -243,14 +241,14 @@
         "Packaged": "2022-09-29 06:24:10 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Brodie Gaslam [ctb]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2022-09-29 16:20:24 UTC",
-        "Built": "R 4.2.0; ; 2022-09-30 12:02:57 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 11:55:34 UTC; unix"
       }
     },
     "curl": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "curl",
         "Type": "Package",
@@ -279,7 +277,7 @@
     },
     "digest": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions\n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx,\n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, Bill Denney, Dirk Schumacher,\n Winston Chang, and Dean Attali.",
@@ -305,7 +303,7 @@
     },
     "ellipsis": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "ellipsis",
         "Version": "0.3.2",
@@ -324,14 +322,14 @@
         "Packaged": "2021-04-29 12:06:44 UTC; lionel",
         "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-04-29 12:40:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-05-07 00:14:46 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:55:39 UTC; unix"
       }
     },
     "fastmap": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -348,14 +346,14 @@
         "Packaged": "2023-02-24 16:01:27 UTC; winston",
         "Author": "Winston Chang [aut, cre],\n  RStudio [cph, fnd],\n  Tessil [cph] (hopscotch_map library)",
         "Maintainer": "Winston Chang <winston@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-02-24 16:30:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-02-27 11:50:31 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:55:42 UTC; unix"
       }
     },
     "fontawesome": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -377,14 +375,14 @@
         "Packaged": "2023-08-19 02:32:12 UTC; rich",
         "Author": "Richard Iannone [aut, cre] (<https://orcid.org/0000-0003-3925-190X>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  Winston Chang [ctb],\n  Dave Gandy [ctb, cph] (Font-Awesome font),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Richard Iannone <rich@posit.co>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-08-19 04:52:40 UTC",
-        "Built": "R 4.2.0; ; 2023-08-21 13:32:49 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 11:58:13 UTC; unix"
       }
     },
     "fs": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -410,14 +408,14 @@
         "Packaged": "2023-07-10 16:24:00 UTC; gaborcsardi",
         "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut, cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  RStudio [cph, fnd]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-07-20 10:30:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-07-21 12:00:45 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:58:35 UTC; unix"
       }
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -447,67 +445,68 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
-        "Package": "htmltools",
         "Type": "Package",
+        "Package": "htmltools",
         "Title": "Tools for HTML",
-        "Version": "0.5.6.1",
-        "Authors@R": "c(\n  person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@posit.co\"),\n  person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@posit.co\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n  person(\"Barret\", \"Schloerke\", role = \"aut\", email = \"barret@posit.co\", comment = c(ORCID = \"0000-0001-9986-114X\")),\n  person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@posit.co\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n  person(\"Yihui\", \"Xie\", role = \"aut\", email = \"yihui@posit.co\"),\n  person(\"Jeff\", \"Allen\", role = \"aut\"),\n  person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n )",
+        "Version": "0.5.7",
+        "Authors@R": "c(\n    person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"),\n    person(\"Carson\", \"Sievert\", , \"carson@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Barret\", \"Schloerke\", , \"barret@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0001-9986-114X\")),\n    person(\"Winston\", \"Chang\", , \"winston@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-1576-2126\")),\n    person(\"Yihui\", \"Xie\", , \"yihui@posit.co\", role = \"aut\"),\n    person(\"Jeff\", \"Allen\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Tools for HTML generation and output.",
-        "Depends": "R (>= 2.14.1)",
-        "Imports": "utils, digest, grDevices, base64enc, rlang (>= 0.4.12),\nfastmap (>= 1.1.0), ellipsis",
-        "Suggests": "markdown, testthat, withr, Cairo, ragg, shiny",
-        "Enhances": "knitr",
         "License": "GPL (>= 2)",
         "URL": "https://github.com/rstudio/htmltools,\nhttps://rstudio.github.io/htmltools/",
         "BugReports": "https://github.com/rstudio/htmltools/issues",
-        "RoxygenNote": "7.2.3",
-        "Encoding": "UTF-8",
-        "Collate": "'colors.R' 'fill.R' 'html_dependency.R' 'html_escape.R'\n'html_print.R' 'htmltools-package.R' 'images.R' 'known_tags.R'\n'selector.R' 'staticimports.R' 'tag_query.R' 'utils.R' 'tags.R'\n'template.R'",
+        "Depends": "R (>= 2.14.1)",
+        "Imports": "base64enc, digest, ellipsis, fastmap (>= 1.1.0), grDevices,\nrlang (>= 1.0.0), utils",
+        "Suggests": "Cairo, markdown, ragg, shiny, testthat, withr",
+        "Enhances": "knitr",
         "Config/Needs/check": "knitr",
         "Config/Needs/website": "rstudio/quillt, bench",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "Collate": "'colors.R' 'fill.R' 'html_dependency.R' 'html_escape.R'\n'html_print.R' 'htmltools-package.R' 'images.R' 'known_tags.R'\n'selector.R' 'staticimports.R' 'tag_query.R' 'utils.R' 'tags.R'\n'template.R'",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-10-06 15:29:21 UTC; cpsievert",
+        "Packaged": "2023-11-03 15:32:24 UTC; cpsievert",
         "Author": "Joe Cheng [aut],\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>),\n  Winston Chang [aut] (<https://orcid.org/0000-0002-1576-2126>),\n  Yihui Xie [aut],\n  Jeff Allen [aut],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Carson Sievert <carson@posit.co>",
-        "Repository": "RSPM",
-        "Date/Publication": "2023-10-06 20:40:06 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-10-09 14:00:32 UTC; unix"
+        "Repository": "CRAN",
+        "Date/Publication": "2023-11-03 17:00:07 UTC",
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:55:47 UTC; unix"
       }
     },
     "httpuv": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
-        "Package": "httpuv",
         "Type": "Package",
-        "Encoding": "UTF-8",
+        "Package": "httpuv",
         "Title": "HTTP and WebSocket Server Library",
-        "Version": "1.6.11",
-        "Authors@R": "c(\n    person(\"Joe\", \"Cheng\", role = c(\"aut\"), email = \"joe@rstudio.com\"),\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Posit, PBC\", role = \"cph\", \"fnd\"),\n    person(\"Hector\", \"Corrada Bravo\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Andrzej\", \"Krzemienski\", role = \"cph\", comment = \"optional.hpp\"),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library, see src/libuv/AUTHORS file\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library, see src/libuv/AUTHORS file; and http-parser library, see src/http-parser/AUTHORS file\"),\n    person(\"Niels\", \"Provos\", role = \"cph\", comment = \"libuv subcomponent: tree.h\"),\n    person(\"Internet Systems Consortium, Inc.\", role = \"cph\",\n            comment = \"libuv subcomponent: inet_pton and inet_ntop, contained in src/libuv/src/inet.c\"),\n    person(\"Alexander\", \"Chemeris\", role = \"cph\",\n            comment = \"libuv subcomponent: stdint-msvc2008.h (from msinttypes)\"),\n    person(\"Google, Inc.\", role = \"cph\", comment = \"libuv subcomponent: pthread-fixes.c\"),\n    person(\"Sony Mobile Communcations AB\", role = \"cph\",\n            comment = \"libuv subcomponent: pthread-fixes.c\"),\n    person(\"Berkeley Software Design Inc.\", role = \"cph\",\n            comment = \"libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c\"),\n    person(\"Kenneth\", \"MacKay\", role = \"cph\",\n            comment = \"libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c\"),\n    person(\"Emergya (Cloud4all, FP7/2007-2013, grant agreement no 289016)\", role = \"cph\",\n            comment = \"libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c\"),\n    person(\"Steve\", \"Reid\", role = \"aut\", comment = \"SHA-1 implementation\"),\n    person(\"James\", \"Brown\", role = \"aut\", comment = \"SHA-1 implementation\"),\n    person(\"Bob\", \"Trower\", role = \"aut\", comment = \"base64 implementation\"),\n    person(\"Alexander\", \"Peslyak\", role = \"aut\", comment = \"MD5 implementation\"),\n    person(\"Trantor Standard Systems\", role = \"cph\", comment = \"base64 implementation\"),\n    person(\"Igor\", \"Sysoev\", role = \"cph\", comment = \"http-parser\")\n    )",
-        "Description": "Provides low-level socket and protocol support for handling\n    HTTP and WebSocket requests directly from within R. It is primarily\n    intended as a building block for other packages, rather than making it\n    particularly easy to create complete web applications using httpuv alone.\n    httpuv is built on top of the libuv and http-parser C libraries, both of\n    which were developed by Joyent, Inc. (See LICENSE file for libuv and\n    http-parser license information.)",
+        "Version": "1.6.12",
+        "Authors@R": "c(\n    person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", , \"winston@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Posit, PBC\", \"fnd\", role = \"cph\"),\n    person(\"Hector\", \"Corrada Bravo\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Andrzej\", \"Krzemienski\", role = \"cph\",\n           comment = \"optional.hpp\"),\n    person(\"libuv project contributors\", role = \"cph\",\n           comment = \"libuv library, see src/libuv/AUTHORS file\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\",\n           comment = \"libuv library, see src/libuv/AUTHORS file; and http-parser library, see src/http-parser/AUTHORS file\"),\n    person(\"Niels\", \"Provos\", role = \"cph\",\n           comment = \"libuv subcomponent: tree.h\"),\n    person(\"Internet Systems Consortium, Inc.\", role = \"cph\",\n           comment = \"libuv subcomponent: inet_pton and inet_ntop, contained in src/libuv/src/inet.c\"),\n    person(\"Alexander\", \"Chemeris\", role = \"cph\",\n           comment = \"libuv subcomponent: stdint-msvc2008.h (from msinttypes)\"),\n    person(\"Google, Inc.\", role = \"cph\",\n           comment = \"libuv subcomponent: pthread-fixes.c\"),\n    person(\"Sony Mobile Communcations AB\", role = \"cph\",\n           comment = \"libuv subcomponent: pthread-fixes.c\"),\n    person(\"Berkeley Software Design Inc.\", role = \"cph\",\n           comment = \"libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c\"),\n    person(\"Kenneth\", \"MacKay\", role = \"cph\",\n           comment = \"libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c\"),\n    person(\"Emergya (Cloud4all, FP7/2007-2013, grant agreement no 289016)\", role = \"cph\",\n           comment = \"libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c\"),\n    person(\"Steve\", \"Reid\", role = \"aut\",\n           comment = \"SHA-1 implementation\"),\n    person(\"James\", \"Brown\", role = \"aut\",\n           comment = \"SHA-1 implementation\"),\n    person(\"Bob\", \"Trower\", role = \"aut\",\n           comment = \"base64 implementation\"),\n    person(\"Alexander\", \"Peslyak\", role = \"aut\",\n           comment = \"MD5 implementation\"),\n    person(\"Trantor Standard Systems\", role = \"cph\",\n           comment = \"base64 implementation\"),\n    person(\"Igor\", \"Sysoev\", role = \"cph\",\n           comment = \"http-parser\")\n  )",
+        "Description": "Provides low-level socket and protocol support for handling\n    HTTP and WebSocket requests directly from within R. It is primarily\n    intended as a building block for other packages, rather than making it\n    particularly easy to create complete web applications using httpuv\n    alone.  httpuv is built on top of the libuv and http-parser C\n    libraries, both of which were developed by Joyent, Inc. (See LICENSE\n    file for libuv and http-parser license information.)",
         "License": "GPL (>= 2) | file LICENSE",
-        "Depends": "R (>= 2.15.1)",
-        "Imports": "Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)",
-        "LinkingTo": "Rcpp, later",
         "URL": "https://github.com/rstudio/httpuv",
-        "SystemRequirements": "GNU make, zlib",
+        "BugReports": "https://github.com/rstudio/httpuv/issues",
+        "Depends": "R (>= 2.15.1)",
+        "Imports": "later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils",
+        "Suggests": "callr, curl, testthat, websocket",
+        "LinkingTo": "later, Rcpp",
+        "Encoding": "UTF-8",
         "RoxygenNote": "7.2.3",
-        "Suggests": "testthat, callr, curl, websocket",
-        "Collate": "'RcppExports.R' 'httpuv.R' 'random_port.R' 'server.R'\n'static_paths.R' 'utils.R'",
+        "SystemRequirements": "GNU make, zlib",
+        "Collate": "'RcppExports.R' 'httpuv.R' 'random_port.R' 'server.R'\n'staticServer.R' 'static_paths.R' 'utils.R'",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-05-11 01:48:49 UTC; jcheng",
+        "Packaged": "2023-10-23 17:02:22 UTC; garrick",
         "Author": "Joe Cheng [aut],\n  Winston Chang [aut, cre],\n  Posit, PBC fnd [cph],\n  Hector Corrada Bravo [ctb],\n  Jeroen Ooms [ctb],\n  Andrzej Krzemienski [cph] (optional.hpp),\n  libuv project contributors [cph] (libuv library, see src/libuv/AUTHORS\n    file),\n  Joyent, Inc. and other Node contributors [cph] (libuv library, see\n    src/libuv/AUTHORS file; and http-parser library, see\n    src/http-parser/AUTHORS file),\n  Niels Provos [cph] (libuv subcomponent: tree.h),\n  Internet Systems Consortium, Inc. [cph] (libuv subcomponent: inet_pton\n    and inet_ntop, contained in src/libuv/src/inet.c),\n  Alexander Chemeris [cph] (libuv subcomponent: stdint-msvc2008.h (from\n    msinttypes)),\n  Google, Inc. [cph] (libuv subcomponent: pthread-fixes.c),\n  Sony Mobile Communcations AB [cph] (libuv subcomponent:\n    pthread-fixes.c),\n  Berkeley Software Design Inc. [cph] (libuv subcomponent:\n    android-ifaddrs.h, android-ifaddrs.c),\n  Kenneth MacKay [cph] (libuv subcomponent: android-ifaddrs.h,\n    android-ifaddrs.c),\n  Emergya (Cloud4all, FP7/2007-2013, grant agreement no 289016) [cph]\n    (libuv subcomponent: android-ifaddrs.h, android-ifaddrs.c),\n  Steve Reid [aut] (SHA-1 implementation),\n  James Brown [aut] (SHA-1 implementation),\n  Bob Trower [aut] (base64 implementation),\n  Alexander Peslyak [aut] (MD5 implementation),\n  Trantor Standard Systems [cph] (base64 implementation),\n  Igor Sysoev [cph] (http-parser)",
-        "Maintainer": "Winston Chang <winston@rstudio.com>",
-        "Repository": "RSPM",
-        "Date/Publication": "2023-05-11 08:00:05 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-07-11 19:05:50 UTC; unix"
+        "Maintainer": "Winston Chang <winston@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-10-23 19:40:02 UTC",
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:56:30 UTC; unix"
       }
     },
     "jquerylib": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -524,14 +523,14 @@
         "Packaged": "2021-04-26 16:40:21 UTC; cpsievert",
         "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Joe Cheng [aut],\n  RStudio [cph],\n  jQuery Foundation [cph] (jQuery library and jQuery UI library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/lib/jquery-AUTHORS.txt)",
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-04-26 17:10:02 UTC",
-        "Built": "R 4.2.0; ; 2022-05-07 00:07:12 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 11:59:00 UTC; unix"
       }
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "jsonlite",
         "Version": "1.8.7",
@@ -557,7 +556,7 @@
     },
     "later": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "later",
         "Type": "Package",
@@ -578,43 +577,43 @@
         "Packaged": "2023-05-01 21:09:55 UTC; winston",
         "Author": "Winston Chang [aut, cre],\n  Joe Cheng [aut],\n  RStudio [cph],\n  Marcus Geelnard [ctb, cph] (TinyCThread library,\n    https://tinycthread.github.io/),\n  Evan Nemerson [ctb, cph] (TinyCThread library,\n    https://tinycthread.github.io/)",
         "Maintainer": "Winston Chang <winston@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-05-02 18:10:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-07-11 19:04:50 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:55:52 UTC; unix"
       }
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
-        "Version": "1.0.3",
-        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Version": "1.0.4",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Manage the life cycle of your exported functions with shared\n    conventions, documentation badges, and user-friendly deprecation\n    warnings.",
         "License": "MIT + file LICENSE",
         "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
         "BugReports": "https://github.com/r-lib/lifecycle/issues",
-        "Depends": "R (>= 3.4)",
-        "Imports": "cli (>= 3.4.0), glue, rlang (>= 1.0.6)",
+        "Depends": "R (>= 3.6)",
+        "Imports": "cli (>= 3.4.0), glue, rlang (>= 1.1.0)",
         "Suggests": "covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),\ntibble, tidyverse, tools, vctrs, withr",
         "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate, usethis",
         "Config/testthat/edition": "3",
-        "Config/Needs/website": "tidyverse/tidytemplate",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.2.1",
         "NeedsCompilation": "no",
-        "Packaged": "2022-10-07 08:50:55 UTC; lionel",
-        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  RStudio [cph, fnd]",
-        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Packaged": "2023-11-06 16:07:36 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
-        "Date/Publication": "2022-10-07 09:50:02 UTC",
-        "Built": "R 4.2.0; ; 2023-06-21 04:08:39 UTC; unix"
+        "Date/Publication": "2023-11-07 10:10:10 UTC",
+        "Built": "R 4.2.0; ; 2023-11-08 12:56:41 UTC; unix"
       }
     },
     "magrittr": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -636,14 +635,14 @@
         "Packaged": "2022-03-29 09:34:37 UTC; lionel",
         "Author": "Stefan Milton Bache [aut, cph] (Original author and creator of\n    magrittr),\n  Hadley Wickham [aut],\n  Lionel Henry [cre],\n  RStudio [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2022-03-30 07:30:09 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-04-22 23:00:28 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:56:12 UTC; unix"
       }
     },
     "memoise": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "memoise",
         "Title": "'Memoisation' of Functions",
@@ -661,14 +660,14 @@
         "Packaged": "2021-11-24 21:24:50 UTC; jhester",
         "Author": "Hadley Wickham [aut],\n  Jim Hester [aut],\n  Winston Chang [aut, cre],\n  Kirill Müller [aut],\n  Daniel Cook [aut],\n  Mark Edmondson [ctb]",
         "Maintainer": "Winston Chang <winston@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-11-26 16:11:10 UTC",
-        "Built": "R 4.2.0; ; 2022-05-07 00:07:08 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 11:59:02 UTC; unix"
       }
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -686,14 +685,14 @@
         "Packaged": "2021-09-28 02:06:04 UTC; yihui",
         "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jeffrey Horner [ctb],\n  Beilei Bian [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-09-28 05:00:05 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-05-07 00:08:30 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:58:07 UTC; unix"
       }
     },
     "openssl": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "openssl",
         "Type": "Package",
@@ -721,7 +720,7 @@
     },
     "packrat": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "packrat",
@@ -749,7 +748,7 @@
     },
     "promises": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "promises",
@@ -772,14 +771,14 @@
         "Packaged": "2023-08-09 20:29:25 UTC; garrick",
         "Author": "Joe Cheng [aut, cre],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Joe Cheng <joe@posit.co>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-08-10 16:00:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-08-11 21:51:11 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:56:18 UTC; unix"
       }
     },
     "rappdirs": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -800,48 +799,44 @@
         "Packaged": "2021-01-28 22:29:57 UTC; hadley",
         "Author": "Hadley Wickham [trl, cre, cph],\n  RStudio [cph],\n  Sridhar Ratnakumar [aut],\n  Trent Mick [aut],\n  ActiveState [cph] (R/appdir.r, R/cache.r, R/data.r, R/log.r translated\n    from appdirs),\n  Eddy Petrisor [ctb],\n  Trevor Davis [trl, aut],\n  Gabor Csardi [ctb],\n  Gregory Jefferis [ctb]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2021-01-31 05:40:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-05-07 00:06:46 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:58:56 UTC; unix"
       }
     },
     "renv": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "renv",
         "Type": "Package",
         "Title": "Project Environments",
-        "Version": "1.0.3",
-        "Authors@R": "c(\n    person(\"Kevin\", \"Ushey\", role = c(\"aut\", \"cre\"), email = \"kevin@rstudio.com\",\n           comment = c(ORCID = \"0000-0003-2880-7407\")),\n    person(\"Hadley\", \"Wickham\", role = c(\"aut\"), email = \"hadley@rstudio.com\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Version": "0.15.5",
+        "Authors@R": "c(\n    person(\"Kevin\", \"Ushey\", role = c(\"aut\", \"cre\"), email = \"kevin@rstudio.com\"),\n    person(\"RStudio, PBC\", role = c(\"cph\"))\n    )",
         "Description": "A dependency management toolkit for R. Using 'renv', you can create\n    and manage project-local R libraries, save the state of these libraries to\n    a 'lockfile', and later restore your library as required. Together, these\n    tools can help make your projects more isolated, portable, and reproducible.",
         "License": "MIT + file LICENSE",
-        "URL": "https://rstudio.github.io/renv/, https://github.com/rstudio/renv",
+        "URL": "https://rstudio.github.io/renv/",
         "BugReports": "https://github.com/rstudio/renv/issues",
         "Imports": "utils",
-        "Suggests": "BiocManager, cli, covr, cpp11, devtools, gitcreds, jsonlite,\nknitr, miniUI, packrat, pak, R6, remotes, reticulate,\nrmarkdown, rstudioapi, shiny, testthat, uuid, waldo, yaml,\nwebfakes",
+        "Suggests": "BiocManager, cli, covr, devtools, knitr, miniUI, packrat,\npak, R6, remotes, reticulate, rmarkdown, rstudioapi, shiny,\ntestthat, uuid, yaml",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.2.3",
+        "RoxygenNote": "7.2.0",
         "VignetteBuilder": "knitr",
-        "Config/Needs/website": "tidyverse/tidytemplate",
-        "Config/testthat/edition": "3",
-        "Config/testthat/parallel": "true",
-        "Config/testthat/start-first": "bioconductor,python,install,restore,snapshot,retrieve,remotes",
         "NeedsCompilation": "no",
-        "Packaged": "2023-09-18 18:18:27 UTC; kevin",
-        "Author": "Kevin Ushey [aut, cre] (<https://orcid.org/0000-0003-2880-7407>),\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  Posit Software, PBC [cph, fnd]",
+        "Packaged": "2022-05-26 22:26:48 UTC; kevin",
+        "Author": "Kevin Ushey [aut, cre],\n  RStudio, PBC [cph]",
         "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-09-19 08:10:02 UTC",
-        "Built": "R 4.2.0; ; 2023-09-20 11:42:22 UTC; unix"
+        "Date/Publication": "2022-05-26 23:10:03 UTC",
+        "Built": "R 4.2.0; ; 2022-05-27 13:13:12 UTC; unix"
       }
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "rlang",
-        "Version": "1.1.1",
+        "Version": "1.1.2",
         "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
         "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
         "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@posit.co\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@posit.co\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"Posit, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
@@ -859,17 +854,17 @@
         "Config/testthat/edition": "3",
         "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-04-28 10:48:43 UTC; lionel",
+        "Packaged": "2023-10-26 16:51:17 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  Posit, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-04-28 22:30:03 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-05-01 14:09:02 UTC; unix"
+        "Date/Publication": "2023-11-04 06:30:03 UTC",
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-11-06 23:31:05 UTC; unix"
       }
     },
     "rsconnect": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "rsconnect",
@@ -900,7 +895,7 @@
     },
     "rstudioapi": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "rstudioapi",
         "Title": "Safely Access the RStudio API",
@@ -925,7 +920,7 @@
     },
     "sass": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -947,14 +942,14 @@
         "Packaged": "2023-07-14 14:57:43 UTC; cpsievert",
         "Author": "Joe Cheng [aut],\n  Timothy Mastny [aut],\n  Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>),\n  Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>),\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  RStudio [cph, fnd],\n  Sass Open Source Foundation [ctb, cph] (LibSass library),\n  Greter Marcel [ctb, cph] (LibSass library),\n  Mifsud Michael [ctb, cph] (LibSass library),\n  Hampton Catlin [ctb, cph] (LibSass library),\n  Natalie Weizenbaum [ctb, cph] (LibSass library),\n  Chris Eppstein [ctb, cph] (LibSass library),\n  Adams Joseph [ctb, cph] (json.cpp),\n  Trifunovic Nemanja [ctb, cph] (utf8.h)",
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-07-15 06:20:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-07-17 12:05:48 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:59:05 UTC; unix"
       }
     },
     "shiny": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "shiny",
         "Type": "Package",
@@ -978,14 +973,38 @@
         "Packaged": "2023-10-06 21:29:36 UTC; cpsievert",
         "Author": "Winston Chang [aut, cre] (<https://orcid.org/0000-0002-1576-2126>),\n  Joe Cheng [aut],\n  JJ Allaire [aut],\n  Carson Sievert [aut] (<https://orcid.org/0000-0002-4958-2844>),\n  Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>),\n  Yihui Xie [aut],\n  Jeff Allen [aut],\n  Jonathan McPherson [aut],\n  Alan Dipert [aut],\n  Barbara Borges [aut],\n  Posit Software, PBC [cph, fnd],\n  jQuery Foundation [cph] (jQuery library and jQuery UI library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/www/shared/jquery-AUTHORS.txt),\n  jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in\n    inst/www/shared/jqueryui/AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Prem Nawaz Khan [ctb] (Bootstrap accessibility plugin),\n  Victor Tsaran [ctb] (Bootstrap accessibility plugin),\n  Dennis Lembree [ctb] (Bootstrap accessibility plugin),\n  Srinivasu Chakravarthula [ctb] (Bootstrap accessibility plugin),\n  Cathy O'Connor [ctb] (Bootstrap accessibility plugin),\n  PayPal, Inc [cph] (Bootstrap accessibility plugin),\n  Stefan Petre [ctb, cph] (Bootstrap-datepicker library),\n  Andrew Rowls [ctb, cph] (Bootstrap-datepicker library),\n  Brian Reavis [ctb, cph] (selectize.js library),\n  Salmen Bejaoui [ctb, cph] (selectize-plugin-a11y library),\n  Denis Ineshin [ctb, cph] (ion.rangeSlider library),\n  Sami Samhuri [ctb, cph] (Javascript strftime library),\n  SpryMedia Limited [ctb, cph] (DataTables library),\n  John Fraser [ctb, cph] (showdown.js library),\n  John Gruber [ctb, cph] (showdown.js library),\n  Ivan Sagalaev [ctb, cph] (highlight.js library),\n  R Core Team [ctb, cph] (tar implementation from R)",
         "Maintainer": "Winston Chang <winston@posit.co>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-10-14 13:40:02 UTC",
-        "Built": "R 4.2.0; ; 2023-10-16 17:20:46 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 12:00:50 UTC; unix"
+      }
+    },
+    "shinydashboard": {
+      "Source": "CRAN",
+      "Repository": "http://cran.rstudio.com",
+      "description": {
+        "Package": "shinydashboard",
+        "Title": "Create Dashboards with 'Shiny'",
+        "Version": "0.7.2",
+        "Authors@R": "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Barbara\", \"Borges Ribeiro\", role = \"aut\", email = \"barbara@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"Almasaeed Studio\", role = c(\"ctb\", \"cph\"), comment = \"AdminLTE theme for Bootstrap\"),\n    person(family = \"Adobe Systems Incorporated\", role = c(\"ctb\", \"cph\"), comment = \"Source Sans Pro font\")\n    )",
+        "Description": "Create dashboards with 'Shiny'. This package provides\n    a theme on top of 'Shiny', making it easy to create attractive dashboards.",
+        "URL": "http://rstudio.github.io/shinydashboard/",
+        "Depends": "R (>= 3.0)",
+        "License": "GPL (>= 2) | file LICENSE",
+        "Imports": "utils, shiny (>= 1.0.0), htmltools (>= 0.2.6), promises",
+        "BugReports": "https://github.com/rstudio/shinydashboard",
+        "RoxygenNote": "6.0.1.9000",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-09-29 17:40:23 UTC; winston",
+        "Author": "Winston Chang [aut, cre],\n  Barbara Borges Ribeiro [aut],\n  RStudio [cph],\n  Almasaeed Studio [ctb, cph] (AdminLTE theme for Bootstrap),\n  Adobe Systems Incorporated [ctb, cph] (Source Sans Pro font)",
+        "Maintainer": "Winston Chang <winston@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-09-30 12:10:06 UTC",
+        "Built": "R 4.2.3; ; 2023-11-13 12:10:59 UTC; unix"
       }
     },
     "sourcetools": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -1002,14 +1021,14 @@
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
         "Packaged": "2023-01-31 18:03:04 UTC; kevin",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-02-01 10:10:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-02-02 19:27:45 UTC; unix"
+        "Built": "R 4.2.3; x86_64-pc-linux-gnu; 2023-11-13 11:58:17 UTC; unix"
       }
     },
     "sys": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "sys",
         "Type": "Package",
@@ -1035,11 +1054,11 @@
     },
     "withr": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
-        "Version": "2.5.1",
+        "Version": "2.5.2",
         "Authors@R": "\n    c(person(given = \"Jim\",\n             family = \"Hester\",\n             role = \"aut\"),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = c(\"aut\", \"cre\"),\n             email = \"lionel@posit.co\"),\n      person(given = \"Kirill\",\n             family = \"Müller\",\n             role = \"aut\",\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Kevin\",\n             family = \"Ushey\",\n             role = \"aut\",\n             email = \"kevinushey@gmail.com\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Winston\",\n             family = \"Chang\",\n             role = \"aut\"),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\"),\n      person(given = \"Richard\",\n             family = \"Cotton\",\n             role = \"ctb\"),\n      person(given = \"Posit Software, PBC\",\n             role = c(\"cph\", \"fnd\")))",
         "Description": "A set of functions to run code 'with' safely and\n    temporarily modified global state. Many of these functions were\n    originally a part of the 'devtools' package, this provides a simple\n    package with limited dependencies to provide access to these\n    functions.",
         "License": "MIT + file LICENSE",
@@ -1055,17 +1074,17 @@
         "Config/testthat/edition": "3",
         "Config/Needs/website": "tidyverse/tidytemplate",
         "NeedsCompilation": "no",
-        "Packaged": "2023-09-26 08:28:27 UTC; lionel",
+        "Packaged": "2023-10-24 08:50:10 UTC; lionel",
         "Author": "Jim Hester [aut],\n  Lionel Henry [aut, cre],\n  Kirill Müller [aut],\n  Kevin Ushey [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Jennifer Bryan [ctb],\n  Richard Cotton [ctb],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@posit.co>",
-        "Repository": "RSPM",
-        "Date/Publication": "2023-09-26 12:20:02 UTC",
-        "Built": "R 4.2.0; ; 2023-09-28 19:39:36 UTC; unix"
+        "Repository": "CRAN",
+        "Date/Publication": "2023-10-30 09:10:02 UTC",
+        "Built": "R 4.2.3; ; 2023-11-13 11:58:21 UTC; unix"
       }
     },
     "xtable": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -1080,18 +1099,17 @@
         "URL": "http://xtable.r-forge.r-project.org/",
         "Depends": "R (>= 2.10.0)",
         "License": "GPL (>= 2)",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "NeedsCompilation": "no",
         "Packaged": "2019-04-21 10:56:51 UTC; dsco036",
         "Author": "David B. Dahl [aut],\n  David Scott [aut, cre],\n  Charles Roosen [aut],\n  Arni Magnusson [aut],\n  Jonathan Swinton [aut],\n  Ajay Shah [ctb],\n  Arne Henningsen [ctb],\n  Benno Puetz [ctb],\n  Bernhard Pfaff [ctb],\n  Claudio Agostinelli [ctb],\n  Claudius Loehnert [ctb],\n  David Mitchell [ctb],\n  David Whiting [ctb],\n  Fernando da Rosa [ctb],\n  Guido Gay [ctb],\n  Guido Schulz [ctb],\n  Ian Fellows [ctb],\n  Jeff Laake [ctb],\n  John Walker [ctb],\n  Jun Yan [ctb],\n  Liviu Andronic [ctb],\n  Markus Loecher [ctb],\n  Martin Gubri [ctb],\n  Matthieu Stigler [ctb],\n  Robert Castelo [ctb],\n  Seth Falcon [ctb],\n  Stefan Edwards [ctb],\n  Sven Garbade [ctb],\n  Uwe Ligges [ctb]",
         "Date/Publication": "2019-04-21 12:20:03 UTC",
-        "Encoding": "UTF-8",
-        "Built": "R 4.2.0; ; 2022-05-07 00:04:45 UTC; unix"
+        "Built": "R 4.2.3; ; 2023-11-13 11:58:10 UTC; unix"
       }
     },
     "yaml": {
       "Source": "CRAN",
-      "Repository": "https://dev.positmanager.analytics.kellogg.com/cran/latest",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "yaml",
         "Type": "Package",
@@ -1115,9 +1133,6 @@
     }
   },
   "files": {
-    ".RData": {
-      "checksum": "097ad59f354dbd10ec99e363d34d5e6f"
-    },
     "app.R": {
       "checksum": "2f30a02f78ae90c491d68656f2ec69fd"
     },
@@ -1129,6 +1144,18 @@
     },
     "shammi.txt": {
       "checksum": "c143d22615a195ce6e7a9f02f664b139"
+    },
+    "shiny/server.R": {
+      "checksum": "d4aaeac9c18a9f8816203c1ff80c23e6"
+    },
+    "shiny/ui.R": {
+      "checksum": "e0e3bb30cf1326119c8bc7e24bc48673"
+    },
+    "testshinyapp/server.R": {
+      "checksum": "4f4fc86600a1fe961019813f9d7354c5"
+    },
+    "testshinyapp/ui.R": {
+      "checksum": "d7362a482572ef89fae67c92c514c3b3"
     }
   },
   "users": null
