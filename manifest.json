@@ -3,7 +3,7 @@
   "locale": "en_US.UTF-8",
   "metadata": {
     "appmode": "jupyter-static",
-    "entrypoint": "testjn.ipynb"
+    "entrypoint": "testp.ipynb"
   },
   "python": {
     "version": "3.7.10",
