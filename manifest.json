@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "jupyter-static",
+    "entrypoint": "testp.ipynb"
+  },
+  "python": {
+    "version": "3.7.10",
+    "package_manager": {
+      "name": "pip",
+      "version": "23.3",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {}
+}
