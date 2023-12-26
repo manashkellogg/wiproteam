@@ -10,6 +10,7 @@ conn <- DBI::dbConnect(odbc::odbc(),
                        Schema = schema,
                        AuthMech = 1,
                        ThriftTransport = 1,
+                       
                        HiveServerType = 2,
                        AllowSelfSignedServerCert = 1,
                        SSL = 1,
