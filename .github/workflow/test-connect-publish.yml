@@ -34,8 +34,8 @@ run: |
 - name: Publish Connect content
 uses: rstudio/actions/connect-publish@main
 with:
-  url: ${{ secrets.CONNECT_SERVER }}
-api-key: ${{ secrets.CONNECT_API_KEY }}
+  url: ${{ secrets.https://dev.positconnect.analytics.kellogg.com }}
+api-key: ${{ secrets.kPElJ422Pz9qw0C5gCuN6cCylpVQFkgK}}
 access-type: logged_in
 dir: |
   .:/shiny-app-demo-cicd-github-actions
