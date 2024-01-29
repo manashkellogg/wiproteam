@@ -1,0 +1,15 @@
+Name:demo-workflow
+
+ on:
+   push:
+   
+   branches:[feature-rakesh]
+ pull requst:
+   branches: [feature-rakesh]
+ 
+ jobs:
+   build:
+   runs-on: ubuntu-latest
+ 
+ steps:
+   - uses: actions/checkout@v3
