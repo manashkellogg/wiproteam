@@ -1,4 +1,4 @@
-name: import-data
+name: shinyimport
 on:
   push:
     branches: [feature_chaitra]
