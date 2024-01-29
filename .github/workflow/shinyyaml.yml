@@ -1,4 +1,4 @@
-name: import-shiny
+name: shinyyaml
 on:
   push:
     branches: [feature_chaitra]
