@@ -1,0 +1,38 @@
+  name: test-and-connect-publish-shinyapp
+  on:
+    push:
+      branches: [main]
+    pull_request:
+      branches: [main]
+  
+  jobs:
+    test-and-connect-publish-shiny:
+      runs-on: ubuntu-22.04
+      steps:
+        - uses: actions/checkout@v2
+
+        - uses: r-lib/actions/setup-pandoc@v2
+
+        - uses: r-lib/actions/setup-r@v2
+          with:
+            r-version: 4.2.3
+            use-public-rspm: true
+            
+        - name: Test Shiny App
+          shell: Rscript {0}
+          run: |
+            shinytest2::test_app()
+            
+        - name: Create manifest.json
+          shell: Rscript {0}
+          run: |
+            rsconnect::writeManifest()
+            
+        - name: Publish Connect content
+          uses: rstudio/actions/connect-publish@main
+          with:
+            url: https://dev.positconnect.analytics.kellogg.com
+            api-key: ZDzo2nOH0lk7onDX0hWqzJwSD0q6SqBg
+            access-type: logged_in
+            dir: |
+              .:/shinytestapp
