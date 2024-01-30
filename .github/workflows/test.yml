@@ -1,9 +1,6 @@
-Name:demo-workflow
-
- on:
-   push:
-   
-   branches:[feature-rakesh]
+on:
+ push:
+   branches: [feature-rakesh]
  pull requst:
    branches: [feature-rakesh]
  
