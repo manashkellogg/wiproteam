@@ -2,10 +2,10 @@ name: test-and-connect-publish
 'on':
   push:
     branches:
-      - main
+      - feature_chaitra
   pull_request:
     branches:
-      - main
+      - feature_chaitra
 jobs:
   test-and-connect-publish:
     runs-on: ubuntu-22.04
@@ -28,8 +28,8 @@ jobs:
       - name: Publish Connect content
         uses: rstudio/actions/connect-publish@main
         with:
-          url: '${{ secrets.CONNECT_SERVER }}'
-          api-key: '${{ secrets.CONNECT_API_KEY }}'
+          url: '${{ https://dev.positconnect.analytics.kellogg.com }}'
+          api-key: '${{ h4tiXtqqyjeXeAKLv1cPMSQoMK1AJoLg }}'
           access-type: logged_in
           dir: |
             .:/shiny-app-demo-cicd-github-actions
