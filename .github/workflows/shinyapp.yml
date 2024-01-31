@@ -1,9 +1,9 @@
   name: test-and-connect-publish-shinyapp
   on:
     push:
-      branches: [main]
+      branches: [feature_chaitra]
     pull_request:
-      branches: [main]
+      branches: [feature_chaitra]
   
   jobs:
     test-and-connect-publish-shiny:
