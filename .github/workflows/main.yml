@@ -32,8 +32,8 @@
         - name: Publish Connect content
           uses: rstudio/actions/connect-publish@main
           with:
-            url: "https://dev.positconnect.analytics.kellogg.com"
-            api-key: "ZDzo2nOH0lk7onDX0hWqzJwSD0q6SqBg"
+            url: "https://uat.rstudioconnect.analytics.kellogg.com"
+            api-key: "dZ23PaXzh0rxQgFS4R7GuF7LagtdAi54"
             access-type: logged_in
             dir: |
               .:/appnewshiny
