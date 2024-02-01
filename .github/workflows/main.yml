@@ -38,4 +38,4 @@
             api-key: ZDzo2nOH0lk7onDX0hWqzJwSD0q6SqBg
             access-type: logged_in
             dir: |
-              .:/shinytestapp
+              .:/appnewshiny
