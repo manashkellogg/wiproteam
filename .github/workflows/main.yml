@@ -19,9 +19,7 @@
             use-public-rspm: true
             
         - name: Install shinytest2
-          shell: Rscript {0}
-          run: |
-            Rscript -e "install.packages('shinytest2')"
+          run: Rscript -e "install.packages('shinytest2')"
             
         - name: Test Shiny App
           shell: Rscript {0}
