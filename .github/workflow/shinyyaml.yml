@@ -1,4 +1,4 @@
-name: shinyyaml
+name: shinyyaml1
 on:
   push:
     branches: [feature_chaitra]
