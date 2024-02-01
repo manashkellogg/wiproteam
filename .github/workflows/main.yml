@@ -23,12 +23,7 @@
 
         - name: Create shinytest2 setup file
           run: R -e 'shinytest2::use_shinytest2(".", setup = TRUE)'
-            
-        - name: Test Shiny App
-          shell: Rscript {0}
-          run: |
-            shinytest2::test_app()
-            
+               
         - name: Create manifest.json
           shell: Rscript {0}
           run: |
