@@ -19,7 +19,7 @@
             use-public-rspm: true
             
         - name: Install shinytest2
-          run: Rscript -e "install.packages('shinytest2')"
+          run: Rscript -e "install.packages(c('shinytest2','rsconnect'))"
 
         - name: Create shinytest2 setup file
           run: R -e 'shinytest2::use_shinytest2(".", setup = TRUE)'
