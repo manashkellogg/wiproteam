@@ -21,7 +21,7 @@
         - name: Test Shiny App
           shell: Rscript {0}
           run: |
-            shiny_app::test_app()
+            shinytest2::test_app()
             
         - name: Create manifest.json
           shell: Rscript {0}
