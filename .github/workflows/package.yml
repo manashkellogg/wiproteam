@@ -1,7 +1,7 @@
   name: Install R Packages
   on:
     push:
-      branches: [main]
+      branches: [feature_sav]
   
   jobs:
     deploy:
@@ -17,5 +17,5 @@
         - name: Deploy to RStudio connect
           run: |
             R -e 'rsconnect::setAccountInfo(name="savanchitragar",token = Sys.getenv("ZDzo2nOH0lk7onDX0hWqzJwSD0q6SqBg"),apiurl="https://dev.positconnect.analytics.kellogg.com")'
-            R -e 'rsconnect::deployApp(appDir= "appnewshiny")'
+            R -e 'rsconnect::deployApp(appDir= "shinytestapp")'
          
