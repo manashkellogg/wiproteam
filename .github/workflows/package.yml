@@ -1,25 +1,21 @@
-name: Install R Packages
-'on':
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-      
-jobs:
-  Install-Packages:
-    runs-on: ubuntu-22.04
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+  name: Install R Packages
+  on:
+    push:
+      branches: [main]
+  
+  jobs:
+    deploy:
+      runs-on: ubuntu-22.04
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v2
+            
+        - name: Install dependencies
+          run: |
+            R -e 'install.packages("rsconnect")'
         
-      - name: Set up R
-      - uses: r-lib/actions/setup-r@v1
-        with:
-          r-version: 4.2.3
-          
-      - name: Install dependencies
-        run: |
-          Rscript -e 'install.packages(c("ggplot1","DBI"))'
+        - name: Deploy to RStudio connect
+          run: |
+            R -e 'rsconnect::setAccountInfo(name="savanchitragar",token = Sys.getenv("ZDzo2nOH0lk7onDX0hWqzJwSD0q6SqBg"),apiurl="https://dev.positconnect.analytics.kellogg.com")'
+            R -e 'rsconnect::deployApp(appDir= "appnewshiny")'
+         
