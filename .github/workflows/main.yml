@@ -20,6 +20,9 @@
             
         - name: Install shinytest2
           run: Rscript -e "install.packages('shinytest2')"
+
+        - name: Create shinytest2 setup file
+          run: R -e 'shinytest2::use_shinytest2(".", setup = TRUE)'
             
         - name: Test Shiny App
           shell: Rscript {0}
