@@ -28,12 +28,16 @@
           shell: Rscript {0}
           run: |
             rsconnect::writeManifest()
+
+        - name: Run Curl command
+          run:  curl https://dev.positconnect.analytics.kellogg.com
+            
             
         - name: Publish Connect content
           uses: rstudio/actions/connect-publish@main
           with:
-            url: "https://uat.rstudioconnect.analytics.kellogg.com"
-            api-key: "dZ23PaXzh0rxQgFS4R7GuF7LagtdAi54"
+            url: "https://dev.positconnect.analytics.kellogg.com"
+            api-key: "sBiMippT8KSv6a4a1m9HfTnZKYPqm7y8"
             access-type: logged_in
             dir: |
               .:/appnewshiny
