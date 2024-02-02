@@ -29,8 +29,8 @@
           run: |
             rsconnect::writeManifest()
 
-        - name: Run Curl command
-          run:  curl https://dev.positconnect.analytics.kellogg.com
+        - name: Run curl command
+          run:  curl https://uat.rstudioconnect.analytics.kellogg.com
             
             
         - name: Publish Connect content
